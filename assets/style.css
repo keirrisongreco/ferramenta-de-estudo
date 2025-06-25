@@ -1,5 +1,6 @@
 body{
     background-color:greenyellow;
+    font-family: googleapis;
 }
 
 footer{
@@ -8,4 +9,11 @@ footer{
     position:fixed;
     bottom:0;
     width: 100%;
+    height: 2rem;
+}
+
+footer p {
+text-align: center;
+font-size
+margin-top: 0.5rem;
 }
