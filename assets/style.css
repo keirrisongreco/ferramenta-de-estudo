@@ -1,0 +1,11 @@
+body{
+    background-color:greenyellow;
+}
+
+footer{
+    background-color: black;
+    color:aliceblue;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
