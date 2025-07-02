@@ -1,6 +1,12 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
+
 body{
      background: url('img/bg-desktop.webp');
-    background-color:greenyellow;
     font-family: Oswald;
 }
 #container{
@@ -17,12 +23,14 @@ body{
 
 .cartao_conteudo{
     text-align: center;
-    background-color: crimson;
+   background-color: var(--card-front-color);
     height: 100%;
 }
 
 .cartao_conteudo h3 {
-    background-color: deepskyblue;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -30,7 +38,14 @@ body{
     border-radius: 0.6rem;
     font-size: 1vw;
 }
-
+.cartao__conteudo__pergunta p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+.cartao__conteudo__resposta p {
+    color: var(--card-back-color);
+    font-weight: 500;
+}
 
 footer{
     background-color: black;
