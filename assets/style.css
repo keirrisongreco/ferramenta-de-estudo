@@ -32,7 +32,6 @@ body{
 .cartao_conteudo h3 {
     color: var(--text-color);
     border: 1px solid var(--text-color);
-    
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -56,9 +55,6 @@ body{
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
     backface-visibility: hidden;
-    position: absolute;
-    height: 100%;
-    width: 100%;
 }
 
 .cartao__conteudo p {
@@ -69,7 +65,11 @@ body{
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
+
 footer{
     background-color: black;
     color:aliceblue;
