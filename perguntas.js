@@ -21,3 +21,17 @@ criaCartao(
     'qual série de ficção científica de maior sucesso?',
     'Docthor who'
 )
+
+criaCartao(
+    'estatuetas',
+    'Qual atriz ganhou o maior número de estatuetas de Melhor Atriz?',
+    'A atriz com o maior número de Oscars de atuação é Katharine Hepburn, que ganhou quatro prêmios de Melhor Atriz.',
+
+)
+
+criaCartao(
+    'oscar',
+    'Quem é a pessoa mais jovem a ganhar um Oscar de atuação?',
+    'A pessoa mais jovem a ganhar um Oscar de atuação foi a atriz Tatum O Neal, que venceu na categoria de Melhor Atriz Coadjuvante aos 10 anos, por sua atuação no filme Lua de papel',
+
+)
